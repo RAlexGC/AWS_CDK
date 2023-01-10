@@ -13,7 +13,7 @@ export class ComputeStack extends Stack {
 
         const { mediaAssetBucket } = props.storageStack;
 
-        const AIRTABLE_KEY = 'key8cAFa0P0VRYV9s';
+        const AIRTABLE_KEY = 'KEY';
         const AIRTABLE_BASE = 'appukL7T9dWa7I035';
 
         const handleImageUpload = new lambda.Function(this, 'HandleImageUpload', {
